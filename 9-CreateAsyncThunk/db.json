@@ -1,0 +1,49 @@
+{
+  "players": [
+    {
+      "id": "ca647c16-d591-4542-ab66-4b79885afd5d",
+      "name": "Mohammad Salah",
+      "country": "Egypt",
+      "continent": "Africa"
+    },
+    {
+      "id": "c1473aab-f7fd-4dbf-a6e4-4034ce2fa018",
+      "name": "Zidane",
+      "country": "France",
+      "continent": "Europe"
+    },
+    {
+      "id": "e1b54387-8216-4796-a0fc-2ec9aed33cfa",
+      "name": "samar",
+      "country": "Uzbekistan",
+      "continent": "Asia"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "classes": "bg-gradient-to-r from-black to-slate-600 rounded-l-md"
+    },
+    {
+      "id": "europe",
+      "label": "Europe",
+      "classes": "bg-gradient-to-r from-blue-500 to-blue-700"
+    },
+    {
+      "id": "asia",
+      "label": "Asia",
+      "classes": "bg-gradient-to-r from-green-500 to-green-700"
+    },
+    {
+      "id": "africa",
+      "label": "Africa",
+      "classes": "bg-gradient-to-r from-yellow-500 to-yellow-700"
+    },
+    {
+      "id": "america",
+      "label": "America",
+      "classes": "bg-gradient-to-r from-cyan-500 to-cyan-700 rounded-r-md"
+    }
+  ]
+}

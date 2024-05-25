@@ -1,0 +1,49 @@
+{
+  "players": [
+    {
+      "id": "21609880-9cb2-4b12-94a4-656198bdb10d",
+      "name": "14+ Продолжение ",
+      "country": "CSS",
+      "continent": "Asia"
+    },
+    {
+      "id": "a6ff96aa-a4dd-4f00-971b-971a5020f201",
+      "name": "Muxriddin",
+      "country": "Uzbekistan (O'zbekiston)",
+      "continent": "Europe"
+    },
+    {
+      "id": "b14f28ab-ea05-4e72-a021-57921508d22d",
+      "name": "swswssw",
+      "country": "Uzbekistan (O'zbekiston)",
+      "continent": "Europe"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "All",
+      "clasess": "from-black to-slate-600 rounded-l-md"
+    },
+    {
+      "id": "europe",
+      "label": "Europe",
+      "clasess": "from-blue-500 to-blue-700"
+    },
+    {
+      "id": "asia",
+      "label": "Asia",
+      "clasess": "from-green-500 to-green-700"
+    },
+    {
+      "id": "africa",
+      "label": "Africa",
+      "clasess": "from-yellow-500 to-yellow-700"
+    },
+    {
+      "id": "america",
+      "label": "America",
+      "clasess": "from-cyan-500 to-cyan-700 rounded-r-md"
+    }
+  ]
+}

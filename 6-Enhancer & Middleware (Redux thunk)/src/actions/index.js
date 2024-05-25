@@ -1,0 +1,74 @@
+export const fetchPlayers = (request) => (dispatch) => {
+	dispatch(playersFetching)
+
+	request('http://localhost:8080/players')
+		.then(data => dispatch(playersFetched(data)))
+		.catch(() => dispatch(playersFetchingError))
+}
+
+export const fetchFilters = (request) => (dispatch) => {
+	dispatch(filtersFetching)
+
+	request('http://localhost:8080/filters')
+		.then(data => dispatch(filtersFetched(data)))
+		.catch(() => dispatch(filtersFetchingError))
+}
+
+export const playersFetching = () => {
+	return {
+		type: 'PLAYERS_FETCHING',
+	}
+}
+
+export const playersFetched = players => {
+	return {
+		type: 'PLAYERS_FETCHED',
+		payload: players,
+	}
+}
+
+export const playersFetchingError = () => {
+	return {
+		type: 'PLAYERS_FETCHING_ERROR',
+	}
+}
+
+export const filtersFetching = () => {
+	return {
+		type: 'FILTERS_FETCHING',
+	}
+}
+
+export const filtersFetched = filters => {
+	return {
+		type: 'FILTERS_FETCHED',
+		payload: filters,
+	}
+}
+
+export const filtersFetchingError = () => {
+	return {
+		type: 'FILTERS_FETCHING_ERROR',
+	}
+}
+
+export const playersCreated = player => {
+	return {
+		type: 'PLAYER_CREATED',
+		payload: player,
+	}
+}
+
+export const playerDeleted = id => {
+	return {
+		type: 'PLAYER_DELETED',
+		payload: id,
+	}
+}
+
+export const activeFilterChanged = filter => {
+	return {
+		type: 'ACTIVE_FILTER_CHANGED',
+		payload: filter,
+	}
+}
